@@ -1,0 +1,11 @@
+<div class="position-relative">
+  <div class="navbar navbar-expand-lg navbar-light shadow-sm position-fixed">
+    <div class="container">
+      <h4>ACME Bank</h4>
+      <h5>Total: {{ 3000 | currency: "ZAR":"R " }}</h5>
+    </div>
+  </div>
+  <div class="container pt-5">
+    <app-accounts [accounts]="accounts"></app-accounts>
+  </div>
+</div>

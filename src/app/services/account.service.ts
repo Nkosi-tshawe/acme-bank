@@ -14,6 +14,7 @@ import { ListResponse } from '../models/response/list-response';
 export class AccountService {
   // Public variables
   public httpVerb = new HttpVerb();
+  public accounts;
   constructor(private api: ApiService) {}
 
   // Public methods
